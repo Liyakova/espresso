@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+body {
+  background-color: #F8F6F4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoPic {
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.socialMediaAndLogo {
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+                /* navbar */
+
+nav {
+  background-color: #D9D9D9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+                    /* aboutAs */
+
+.aboutUs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.aboutCoffee {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.special {
+  background-color: #D9D9D9;
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 15px;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.specalText {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slidePic {
+  width: 300px;
+  height: 300px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+
+                    /* food & drinks */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #D9D9D9;
+}
+
+.menuName {
+  font-family: 'Inter', sans-serif;
+  margin: 8px;
+  font-size: 18px;
+}
+
+.menuPrice {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-size: 15px;
+}
+
+                    /* Buttons */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  margin: 20px 15px 15px 15px;
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  background-color: #D9D9D9;
+}
+
+/* contacts */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px;
+}
+
+.textShowMore {
+  width: 700px;
+  margin-bottom: 0;
+}
+
+.btnShowMore {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
